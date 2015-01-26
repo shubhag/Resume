@@ -1,0 +1,155 @@
+\documentclass[letterpaper,9pt]{extarticle}
+
+%-----------------------------------------------------------
+\usepackage[empty]{fullpage}
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.90}
+\textheight=9.0in
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{0.375in}
+\addtolength{\textwidth}{0.5in}
+\addtolength{\topmargin}{-.375in}
+\addtolength{\textheight}{0.75in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+\begin{document}
+
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+\textbf{\Large Shubham Agrawal}  & Homepage: http://home.iitk.ac.in/~shubhag\\
+shubhag@iitk.ac.in & Phone: 9621255599  \\
+
+\end{tabular*}
+\\
+
+\vspace{0.1in}
+
+\resheading{Education}
+\begin{itemize}
+\item
+	\ressubheading{Indian Institute of Technology, Kanpur}{Current CPI 8.6 on a scale of 10}{B.Tech, Computer Science and Engineering}{}
+\item
+	\ressubheading{Tagore International School, Jaipur}{89\%}{Class 12}{}
+\item
+	\ressubheading{Tagore International School, Jaipur}{9.8}{Class 10}{}	
+\end{itemize}
+
+\resheading{Scholastic Achievements}
+\begin{itemize}
+\itemsep0em
+	\item  Secured an \textbf{All India Rank-155} in IIT-JEE 2012 and \textbf{All India Rank-105} in AIEEE 2012
+	\item  Awarded the prestigious \textbf{Kishore Vigyan Protsahan Yojna(KVPY)} fellowship by the Department of Science and Technology, Government of India in the year 2012
+	\item Secured an \textbf{All India 4th position} in National Science Olympiad 2012
+	\item Secured an \textbf{All India 11th position} in International Mathematics Olympiad 2012
+\item Achieved an All India Rank-268 in NSTSE-2011
+\end{itemize}
+
+\resheading{Projects}
+\begin{itemize}
+\item
+	\ressubheading{Video Surveillance}{}{Summer Project mentored by Prof. Harish Karnick}{May 2014 - present}
+	\begin{itemize}
+		\resitem{The project involved improving the video surveillance system for traffic monitoring in IIT Kanpur}
+		\resitem{Recognized useless frames and \textbf{extracted interesting frames} from the camera feed to \textbf{reduce the storage space} required for data }
+		\resitem{\textbf{Analysed and implemented adaptive background subtraction algorithms} - static frame difference, optical flow and mixture of Gaussians method (MOG) for background modelling}
+		\resitem{Implemented the \textbf{Voila-Jones object detection framework} for classifying the interesting objects}		
+		\resitem{\textbf{Extracted candidate licence plate areas} from the images as a first step towards Licence Plate Recognition. The candidate areas were \textbf{optimised for character recognition using morphological operations}}
+	\end{itemize}
+\item
+	\ressubheading{Jutja.com}{}{Start-up}{March 2014 - present}
+	\begin{itemize}
+		\resitem{\textbf{Part of a start-up jutja.com}, a project management website with mind-mapped tasks}
+		\resitem{Designed the user interface of the website and currently working as a front-end developer}
+		\resitem{\textbf{Implemented the mind-mapped visualization of tasks} using Vivagraph library in JavaScript}
+	\end{itemize}
+\item
+	\ressubheading{Online C Compiler}{}{Summer Project mentored by Prof. Amay Karkare}{May 2014-June 2014}
+	\begin{itemize}
+		\resitem{Developed a website to \textbf{compile and run c programs on an online platform}}
+		\resitem{Integrated Ace Editor Plugin for proper code formatting}
+		\resitem{Introduced a section in the website to practise different programming problems}
+	\end{itemize}
+\item
+	\ressubheading{E-Glove}{}{Summer Project under Electronics Club, IITK}{May 2013 - June 2013}
+	\begin{itemize}
+		\resitem{Designed an electronic wearable glove which uses \textbf{hand gestures to control mouse and keyboard}}
+		\resitem{Implemented simulation of mouse and keyboard using a C program}
+		%\resitem{Used accelerometer and flex sensor to detect hand gestures}
+	\end{itemize}
+\item
+	\ressubheading{Instifreaks}{}{Application developed in Yahoo! HackU 2013}{22-25 August 2013}
+	\begin{itemize}
+		\resitem{Developed an android reminder app to wake up the user to attend lectures on time}
+		\resitem{The app firstly initiates an alarm. If user does not attend the alarm, it sends a "wake me up" message to user’s friends}
+	\end{itemize}
+\end{itemize}
+
+\resheading{Technical Skills}
+
+\begin{description}
+\itemsep0em
+\item[Programming Languages:]
+C/C++, JavaScript, HTML, CSS, Bash, Perl, MySQL, Python, Nodejs
+\item[Other Tools:]
+Git, \LaTeX, OpenCV, GNU Octave
+\item[Operating Systems:]
+Linux based OS's, Windows
+\end{description}
+
+\resheading{Extra-Curricular Achievements}
+\begin{description}
+\item[2013] Won 1st prize in Electromania (made a snake game) in Techkriti, annual technical festival of IIT Kanpur
+\item[2013] Secured 2nd position in Embedded (made a bubble burst game), Takneek
+\item[2012] Achieved 2nd position in Electromania in Takneek, made a frog game using basic ICs
+\end{description}
+
+\resheading{Relevant Coursework}
+\begin{description}
+\item[]
+Theory of Computation*,
+Operating Systems*,
+Data Structures And Algorithms,
+Algorithms*,
+Computing Laboratory,
+Computer Organization, 
+Probability And Statistics,
+Fundamentals of Computing,
+Linear Algebra,
+Discrete Mathematics
+\end{description}
+
+\resheading{Position of Responsibility}
+\begin{itemize}
+\itemsep0em
+\item ECDC Coordinator, Techkriti'14
+	\begin{itemize}
+	\itemsep0em
+	\item Successfully organised four events with an overall participation of over 500 participants
+	\end{itemize}
+\item Secretary of Electronics Club
+	\begin{itemize}
+	\itemsep0em
+		\item Organized hall level workshops and worked in a team to organize a hall level competition
+		\item Guided and mentored the students on different projects and competitions
+	\end{itemize}
+\item Secretary of Public Relations, Antaragni'13
+	\begin{itemize}
+		\itemsep0em
+		\item Ensured a smooth conduct of all the events organized under the Public Relations
+		\item Managed the hospitality of the esteemed judges throughout the events
+	\end{itemize}
+\end{itemize}
+\end{document}
